@@ -9,6 +9,9 @@ from crewai.flow.flow import Flow, listen, start
 from .crews.edu_research.edu_research_crew import EduResearchCrew
 from .crews.edu_content_writer.edu_content_writer_crew import EduContentWriterCrew
 from .config import EDU_FLOW_INPUT_VARIABLES
+from dotenv import load_dotenv
+
+load_dotenv()
 
 api_key = os.getenv('LANGTRACE_API_KEY')
 
