@@ -17,7 +17,7 @@ LLM_CONFIGS = {
         "base_url": "",
     },
     "deepspeed": {
-        "model": "deepseek-chat",
+        "model": "deepseek/deepseek-chat",
         "api_key": os.getenv('DEEPSPEED_API_KEY'),
         "base_url": "https://api.deepseek.com",
     },
